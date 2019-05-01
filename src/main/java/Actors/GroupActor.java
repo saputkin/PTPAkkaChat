@@ -15,7 +15,7 @@ public class GroupActor extends AbstractActor {
         return Props.create(GroupActor.class, () -> new GroupActor(groupname, admin));
     }
 
-    //messages
+    //messages types
     static public class SendGroupText implements Serializable {
         public final String message;
         public final String group;
