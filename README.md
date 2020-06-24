@@ -1,3 +1,7 @@
 # PTPAkkaChat
-Peer To Peer chat build with Java Akka framework.
-Supports Functions such as chating with other clients, creating and managing groups (Mute, invite and more)
+Peer To Peer chat build with Java Akka framework.  
+Supports Functions such:
+- Creating a user
+- Creating a group (only existing users)
+- Group managment: inviting users, kicking users, mute and more.
+- Chating with other users
